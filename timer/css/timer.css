@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: grey;
+    cursor: url("../img/cursor.png"), default;
+}
+
+#desc {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+#timer {
+    color: white;
+    font-size: 180px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+#pause, #start {
+    width: 200px;
+    height: 200px;
+    margin: -100px -100px;
+    position: relative;
+    left: 50%;
+    
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
